@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volcano Mania!</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="page">
+        <div id="header">
+            <h1>🌋 Welcome to Volcano Mania! 🌋</h1>
+            <marquee>🔥 Hot News: USGS lowers Kilauea alert level as most recent eruption is declared over! 🌋 Active volcano in Antarctica is spewing out £5,000 worth of gold dust every day! 🔥</marquee>
+        </div>
+        
+
+        <div id="main">
+            <h2 id="intro">What are Volcanoes?</h2>
+            <p>Volcanoes are openings in Earth's crust where molten rock, ash, and gases escape. When a volcano erupts, it can cause explosive outbursts of lava and ash.</p>
+            
+            <h2 id="types">Types of Volcanoes</h2>
+            <p>There are several types of volcanoes, including:</p>
+            <ul>
+                <li>🗻 Shield Volcanoes</li>
+                <li>🌋 Stratovolcanoes</li>
+                <li>🪨 Cinder Cone Volcanoes</li>
+                <li>⛰️ Lava Domes</li>
+            </ul>
+
+            <h2 id="famous">Famous Volcanoes</h2>
+            <p>Here are some famous volcanoes around the world:</p>
+            <ul>
+                <li>Mount Fuji, Japan</li>
+                <li>Mount Vesuvius, Italy</li>
+                <li>Mauna Loa, Hawaii</li>
+                <li>Krakatoa, Indonesia</li>
+            </ul>
+            
+            <div id="content">
+                <h2 id="eruption">Volcano Eruptions</h2>
+                <button onclick="showBackground()">See a Volcano Eruption!</button>
+            </div>
+        
+            <script>
+                function showBackground() {
+
+                    
+                    document.body.style.backgroundImage = "url('giphy.webp')";
+
+                    alert("Boom! The volcano has erupted!");
+                }
+            </script>
+        </div>
+
+        <div id="footer">
+            <p>© 2024 Volcano Mania! All Rights Reserved.</p>
+        </div>
+    </div>
+    
+    <div id="content">
+        <h1>Welcome to Volcano Mania!</h1>
+        <p>Experience the fiery beauty of volcanoes.</p>
+    </div>
+    <img src="file (6).png" id="center-image" alt="Centered Image">
+
+    <div class="button-container02">
+        <!-- 按钮1 -->
+        <div class="image-button02" onclick="window.location.href='https://en.wikipedia.org/wiki/Mount_Etna'">
+            <img src="IMG_3948.jpg" alt="Image 1">
+        </div>
+
+
+    </div>
+
+    <div class="button-container">
+        <!-- 按钮1 -->
+
+        <!-- 按钮2 -->
+        <div class="image-button" onclick="window.location.href='https://en.wikipedia.org/wiki/Cinder_Cone_and_the_Fantastic_Lava_Beds'">
+            <img src="IMG_1105.jpg" alt="Image 2">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
